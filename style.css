@@ -1,0 +1,80 @@
+#photo {
+    border-radius: 50%;
+}
+
+#links {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    margin: 0;
+}
+
+#description {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+}
+
+#links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#profile {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    max-width: 400px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+#credits {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#credits a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+}
